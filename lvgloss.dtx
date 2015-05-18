@@ -4,8 +4,9 @@
 %<*driver>
 \documentclass{article}
 \usepackage{doc}
-\usepackage{dvgloss}
-\usepackage{mdwtab, sverb}
+\usepackage{lvgloss}
+\usepackage{mdwtab, sverb, booktabs}
+\def\listingsize{\footnotesize}
 \usepackage{libertine}\renewcommand{\ttdefault}{lmtt}
 \usepackage{tikz-qtree}
 \usepackage[T1]{fontenc}
@@ -13,7 +14,7 @@
 \EnableCrossrefs
 \RecordChanges
 \begin{document}
-\DocInput{dvgloss.dtx}
+\DocInput{lvgloss.dtx}
 \end{document}
 %</driver>
 % \fi
@@ -65,6 +66,46 @@
 %\end{minipage}\end{minipage}}
 %\def\fboxsep{2pt}
 %\eject
+%\catcode`\|=12
+%\begin{listing}
+%\gltab{Waral = xchi-qa-tz'ib'a-j {!\quad} = wi /
+%             > xchi-qa-tiki-b'a'          > wi ojer tzij, /
+%  u-tik-ar-ib'al /
+%  u-xe'-n-ab'al puch, r-onojel x-b'an pa = tinamit K'iche', /
+%                                         > r-amaq' K'iche' winaq.}
+% {here |prosp|-|a|1p-write-|ss|   |foc|
+%       |prosp|-|a|1p-stand-|caus| |foc| old word
+%  |a|3s-plant-|vers|-|instr|
+%  |a|3s-root-|ap|-|instr| |part| |a|3s-all |cpl|-make:|pass| |p| town K'iche'
+%                                           |a|3s-nation K'iche' people}
+%
+%\ft{``Here we will write, / will erect the ancient words: / 
+%    the planting, / the rooting, all that was done in the K'ichee' town, / 
+%    the nation of K'ichee' people.''}
+%
+%
+%\gltree{
+%  [.IP [.NP Pavel ] 
+%    [.I' [.I' [.V stud- ] [.I -uje ] ] 
+%      [.VP !\glzero [.V' !\glzero ] ] ] ]
+%}{Paul study- -3sg}{
+%  \draw[semithick, ->](4)..controls +(south:2) and +(south:2)..(1);
+%  \draw[semithick, ->](5)..controls +(south:2.5) and +(south:2.5)..(2);
+%}
+%
+%
+%\gl{< Wi\v{c}\'asa ki >{\bf Subject} < math\'o w\k{a} >Object < kt\k{e} >Verb}
+%   {man the bear a killed}
+%
+%\gl{< Math\'o w\k{a} >{\bf Subject} < wi\v{c}\'asa ki >Object < kt\k{e} >Verb}
+%   {bear a man the killed}
+%
+%\gl{< Wi\v{c}\'asa ki >{\bf Subject} < ix?\'e w\k{a} >Object < w\k{a}y\'ale >Verb}
+%   {man the rock a saw}
+%
+%\gl{< Ix?\'e w\k{a} >Object < wi\v{c}\'asa ki >{\bf Subject} < w\k{a}y\'ale >Verb}
+%   {rock a man the saw}
+%\end{listing}
 %\tableofcontents
 %\section{What}
 %This is a macro package for setting interlinear glossed text.
