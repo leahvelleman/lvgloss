@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 MAY 2015 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 MAY 2015 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,30 +791,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--68
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 70.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (1.5pt too wide) in paragraph at lines 97--97
- [][] 
- []
-
-
-Overfull \hbox (1.5pt too wide) in paragraph at lines 100--100
- [][] 
- []
-
-
-Overfull \hbox (18.5pt too wide) in paragraph at lines 103--103
- [][] 
- []
-
-
-Overfull \hbox (18.5pt too wide) in paragraph at lines 106--106
- [][] 
- []
-
 (./lvgloss.toc
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 1.
@@ -822,109 +798,159 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 \tf@toc=\write6
 \openout6 = `lvgloss.toc'.
 
- [2]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 164.
- [3]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 282.
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
+ input line 75.
 
-Overfull \hbox (20.04103pt too wide) in paragraph at lines 282--282
+(/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.
+fd
+File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 75.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 81.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 83.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 83.
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp)
+(./demo1.tmp) [2]
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp) (./demo1.tmp)
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp) (./demo1.tmp
+Overfull \hbox (9.5pt too wide) in paragraph at lines 6--6
+[][]  
+ []
+
+) [3]
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp) (./demo1.tmp)
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/sl' in size <10> not a
+vailable
+(Font)              Font shape `T1/LinuxLibertineT-TLF/b/it' tried instead on i
+nput line 2.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/it' will be
+(Font)              scaled to size 10.0pt on input line 2.
+) (./demo1.tmp)
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 2.
+)
+(./demo1.tmp) [4]
+\openout3 = `demo1.tmp'.
+
+ (./demo1.tmp) (./demo1.tmp) [5]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 197.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 315.
+
+Overfull \hbox (20.04103pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 %Some utility macros. These give us push and pop operations
  on token lists, 
  []
 
 
-Overfull \hbox (38.941pt too wide) in paragraph at lines 282--282
+Overfull \hbox (38.941pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 \long\def\addtokens#1\to#2{\ta={#1}\tb=\expandafter{#2}\ede
 f#2{\the\tb\the\ta}} 
  []
 
-[4]
-Overfull \hbox (5.86606pt too wide) in paragraph at lines 282--282
+[6]
+Overfull \hbox (5.86606pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 %The first two macros here check whether a character has be
 en designated 
  []
 
 
-Overfull \hbox (1.14107pt too wide) in paragraph at lines 282--282
+Overfull \hbox (1.14107pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 %as a special or passthru character, using \verb+\ifnotin+.
   The second 
  []
 
 
-Overfull \hbox (48.39098pt too wide) in paragraph at lines 282--282
+Overfull \hbox (48.39098pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 %This will stack two words atop one another, with appropria
 te struts and spacing. 
  []
 
-
-Overfull \hbox (62.56595pt too wide) in paragraph at lines 282--282
+[7]
+Overfull \hbox (62.56595pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 %This is the default macro for formatting a pair of object-
 langauge and metalanguage 
  []
 
 
-Overfull \hbox (10.59105pt too wide) in paragraph at lines 282--282
+Overfull \hbox (10.59105pt too wide) in paragraph at lines 315--315
  [][]\T1/lmtt/m/n/9 %words. In addition to stacking them, it invokes the proper
  font commands 
  []
 
-[5] [6]
-Overfull \hbox (43.66599pt too wide) in paragraph at lines 357--357
+[8]
+Overfull \hbox (43.66599pt too wide) in paragraph at lines 390--390
  [][]            \T1/lmtt/m/n/9 \edef\temp{\expandafter\noexpand\glosswordmacro
 {\the\ta}{\the\tb} }% 
  []
 
-[7]
-Overfull \hbox (95.64088pt too wide) in paragraph at lines 417--417
+[9]
+Overfull \hbox (95.64088pt too wide) in paragraph at lines 450--450
  [][]    \T1/lmtt/m/n/9 \noexpand\stepcounter{nodecount}\noexpand\everygla#1\no
 expand\\\noexpand\everyglb#2};}% 
  []
 
 
-Overfull \hbox (416.94026pt too wide) in paragraph at lines 437--437
+Overfull \hbox (416.94026pt too wide) in paragraph at lines 470--470
  [][]  \T1/lmtt/m/n/9 \begin{tikzpicture}[every leaf node/.append style={inner 
 sep=1}, baseline=base, sibling distance=1em, frontier/.style={distance from roo
 t=\maxbracketcount}]% 
  []
 
 
-Overfull \hbox (43.66599pt too wide) in paragraph at lines 456--456
+Overfull \hbox (43.66599pt too wide) in paragraph at lines 489--489
  [][]  \T1/lmtt/m/n/9 \makeglshortcut={\=}\makeglshortcut>{\>}\makeglshortcut/{
 \\[\betweenglspace]}% 
  []
 
 
-Overfull \hbox (48.39098pt too wide) in paragraph at lines 456--456
+Overfull \hbox (48.39098pt too wide) in paragraph at lines 489--489
  [][]  \T1/lmtt/m/n/9 \begin{minipage}[t]{0.9\textwidth}\begin{tabbing}\z\end{t
 abbing}\end{minipage}% 
  []
 
-
-Overfull \hbox (67.29094pt too wide) in paragraph at lines 466--466
+[10]
+Overfull \hbox (67.29094pt too wide) in paragraph at lines 499--499
  [][]\T1/lmtt/m/n/9 \def\ft#1{\par\nopagebreak[4]\lineskiplimit=0pt\lineskip=1p
 t\addvspace{\jot}#1\strut} 
  []
 
 
-Overfull \hbox (76.74092pt too wide) in paragraph at lines 466--466
+Overfull \hbox (76.74092pt too wide) in paragraph at lines 499--499
  [][]\T1/lmtt/m/n/9 \def\lb#1{{\unskip\nobreak\hfil\penalty0\hskip2em\mbox{}\no
 break\hfill\mbox{\strut#1}}} 
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 469.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 469.
-[8]
-Overfull \hbox (59.24883pt too wide) in paragraph at lines 516--517
+
+Overfull \hbox (59.24883pt too wide) in paragraph at lines 549--550
  []\T1/lmtt/m/n/10 \expandafter\def\csname gl/\endcsname<#1>{\par\ifx#1\empty\e
 lse\vskip{#1}\fi} 
  []
 
-[9]
-Overfull \hbox (251.56558pt too wide) in paragraph at lines 557--557
+[11]
+Overfull \hbox (251.56558pt too wide) in paragraph at lines 590--590
  [][]\T1/lmtt/m/n/9 \def\doarrow\glossword#1\glossword#2\glossword#3\glossword{
 \linkto\glossword#1\under\glossword#2\from\glossword#3\glossword} 
  []
@@ -933,9 +959,9 @@ Overfull \hbox (251.56558pt too wide) in paragraph at lines 557--557
 * This macro file has no checksum!
 * The checksum should be 496!
 **********************************
-) [10]
+) [12]
 
-! LaTeX Error: \begin{macro} on input line 189 ended by \end{document}.
+! LaTeX Error: \begin{macro} on input line 222 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -947,43 +973,46 @@ l.18 \end{document}
 (./lvgloss.aux) )
 (\end occurred inside a group at level 8)
 
-### semi simple group (level 8) entered at line 189 (\begingroup)
-### semi simple group (level 7) entered at line 188 (\begingroup)
-### semi simple group (level 6) entered at line 187 (\begingroup)
-### semi simple group (level 5) entered at line 186 (\begingroup)
-### semi simple group (level 4) entered at line 185 (\begingroup)
-### semi simple group (level 3) entered at line 184 (\begingroup)
-### semi simple group (level 2) entered at line 183 (\begingroup)
-### semi simple group (level 1) entered at line 141 (\begingroup)
+### semi simple group (level 8) entered at line 222 (\begingroup)
+### semi simple group (level 7) entered at line 221 (\begingroup)
+### semi simple group (level 6) entered at line 220 (\begingroup)
+### semi simple group (level 5) entered at line 219 (\begingroup)
+### semi simple group (level 4) entered at line 218 (\begingroup)
+### semi simple group (level 3) entered at line 217 (\begingroup)
+### semi simple group (level 2) entered at line 216 (\begingroup)
+### semi simple group (level 1) entered at line 174 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14328 strings out of 493117
- 282944 string characters out of 6135433
+ 14392 strings out of 493117
+ 284259 string characters out of 6135433
  317393 words of memory out of 5000000
- 17487 multiletter control sequences out of 15000+600000
- 81889 words of font info for 44 fonts, out of 8000000 for 9000
+ 17512 multiletter control sequences out of 15000+600000
+ 91856 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,95p,437b,1102s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
-c}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc
-}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_omcwp2.enc}
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{
-/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/
-usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLiberti
-neT.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLib
-ertineTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/L
-inLibertineTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on lvgloss.pdf (10 pages, 454021 bytes).
+c}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_ki75ao.enc
+}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{
+/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_omcwp2.enc}{/
+usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/u
+sr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/us
+r/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibertine
+T.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLiber
+tineTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineTBI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/liberti
+ne/LinLibertineTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lm
+tt10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on lvgloss.pdf (12 pages, 491177 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -66,55 +66,25 @@
 %\end{minipage}\end{minipage}}
 %\def\fboxsep{2pt}
 %\eject
-%\catcode`\|=12
-%\begin{listing}
-%\gltab{Waral = xchi-qa-tz'ib'a-j {!\quad} = wi /
-%             > xchi-qa-tiki-b'a'          > wi ojer tzij, /
-%  u-tik-ar-ib'al /
-%  u-xe'-n-ab'al puch, r-onojel x-b'an pa = tinamit K'iche', /
-%                                         > r-amaq' K'iche' winaq.}
-% {here |prosp|-|a|1p-write-|ss|   |foc|
-%       |prosp|-|a|1p-stand-|caus| |foc| old word
-%  |a|3s-plant-|vers|-|instr|
-%  |a|3s-root-|ap|-|instr| |part| |a|3s-all |cpl|-make:|pass| |p| town K'iche'
-%                                           |a|3s-nation K'iche' people}
-%
-%\ft{``Here we will write, / will erect the ancient words: / 
-%    the planting, / the rooting, all that was done in the K'ichee' town, / 
-%    the nation of K'ichee' people.''}
-%
-%
-%\gltree{
-%  [.IP [.NP Pavel ] 
-%    [.I' [.I' [.V stud- ] [.I -uje ] ] 
-%      [.VP !\glzero [.V' !\glzero ] ] ] ]
-%}{Paul study- -3sg}{
-%  \draw[semithick, ->](4)..controls +(south:2) and +(south:2)..(1);
-%  \draw[semithick, ->](5)..controls +(south:2.5) and +(south:2.5)..(2);
-%}
-%
-%
-%\gl{< Wi\v{c}\'asa ki >{\bf Subject} < math\'o w\k{a} >Object < kt\k{e} >Verb}
-%   {man the bear a killed}
-%
-%\gl{< Math\'o w\k{a} >{\bf Subject} < wi\v{c}\'asa ki >Object < kt\k{e} >Verb}
-%   {bear a man the killed}
-%
-%\gl{< Wi\v{c}\'asa ki >{\bf Subject} < ix?\'e w\k{a} >Object < w\k{a}y\'ale >Verb}
-%   {man the rock a saw}
-%
-%\gl{< Ix?\'e w\k{a} >Object < wi\v{c}\'asa ki >{\bf Subject} < w\k{a}y\'ale >Verb}
-%   {rock a man the saw}
-%\end{listing}
 %\tableofcontents
-%\section{What}
-%This is a macro package for setting interlinear glossed text.
+%\section{Introduction}
+%This is a macro package for setting interlinear glossed text, which aims to
+%be simple, flexible and easily extensible. Features include:
 %
-%\paragraph{Why another one of those?}
-%There are already at least two widely used sets of glossing macros floating
-%around: the old reliable \textsf{midnight} macros which are used in
-%\textsf{linguex} and \textsf{gb4e}, and a custom-written set of macros
-%in \textsf{expex}.  So why write a new one?
+%\begin{itemize}
+%  \item Easy formatting of glossed examples (for instance, bolding words or phrases for emphasis).
+%  \item Hooks for creating your own macros that interact with glossed text in interesting ways.
+%  \item Special macros for tab-aligned glossed text, and for glossed text in syntax trees.
+%\end{itemize}
+%
+%This package does \emph{not} handle example numbering, but it plays well with other
+%packages that do, including {\tt expex}, {\tt linguex} and {\tt gb4e}.
+%
+%\subsection{Why?}
+%Why create another set of glossing macros?  There are already at least two
+%widely used sets: the old reliable \textsf{midnight} macros which are used in
+%\textsf{linguex} and \textsf{gb4e}, and the newer ones found in 
+%\textsf{expex}.  So why write yet another?
 %
 %The short answer is, flexibility and extensibility. The \textsf{midnight} macros
 %do one specific thing very well.  The macros in \textsf{expex} do a lot of 
@@ -132,6 +102,69 @@
 %glossed text. For various reasons, all of these would have been hard to implement
 %in other glossing packages; they are reasonably easy here.
 %
+%\subsection{Quick examples}
+%
+%The macro \verb+\gl+ aligns a sequence of words with a sequence of glosses.
+%\begin{demo}[w]{}
+%\gl{dol\=orem ipsum quia dolor sit amet}
+%   {pain.acc itself.acc because pain be.subj.3sg love.subj.3sg}
+%\end{demo}
+%In loger examples, linebreaks can be added freely between words.
+%\begin{demo}[w]{}
+%\gl{N\=e =que porr\=o quisquam est qu\={\i} dol\=orem ipsum 
+%     quia dolor sit amet consectetur adipisci velit}
+%   {not =and further anyone.nom be.3sg who.masc.nom pain.acc itself.acc
+%     because pain be.subj.3sg love.subj.3sg seek.subj.3sg reach.inf 
+%     wish.subj.3sg}
+%\end{demo}
+%A free translation can be introduced by \verb+\ft+, and a right-aligned
+%label after either the gloss or its free translation can be introduced by
+%\verb+\lb+.
+%\begin{demo}[w]{}
+%\gl{N\=e =que porr\=o quisquam est qu\=i dol\=orem ipsum 
+%     quia dolor sit amet consectetur adipisci velit}
+%  {not =and further anyone.nom be.3sg who.masc.nom pain.acc itself.acc
+%     because pain be.subj.3sg love.subj.3sg seek.subj.3sg reach.inf 
+%     wish.subj.3sg}
+%\ft{Nor, furthermore, is there anyone who loves, seeks or wishes to obtain 
+%    pain itself, just because it is pain.}
+%\lb{Cicero, ``On the Ends of Goods and Evils''}
+%\end{demo}
+%
+%Words that are grouped together by braces are aligned as a single unit.
+%\begin{demo}[n]{}
+%\gl{\=Edorm\={\i} cr\=apulam!}
+%   {{sleep off} hangover}
+%\ft{Sleep off that hangover!}
+%\end{demo}
+%
+%Font commands such as \verb+\bfseries+ will only affect a single word that
+%follows them.
+%\begin{demo}[w]{}
+%\gl{dol\=orem \bfseries ipsum quia dolor sit amet}
+%   {pain.acc itself.acc because pain be.subj.3sg love.subj.3sg}
+%\end{demo}
+%To make such a command affect \emph{all} subsequent words, precede it with
+%an exclamation mark, as in \verb+!{\bfseries}+.
+%\begin{demo}[w]{}
+%\gl{dol\=orem !{\bfseries} ipsum quia dolor !{\mdseries} sit amet}
+%   {pain.acc itself.acc because pain be.subj.3sg love.subj.3sg}
+%\end{demo}
+%Similarly, formatting commands like \verb+\\+ or \verb+\par+ need to
+%be preceded with an exclamation mark: \verb+!{\\}+, \verb+!{\par}+.
+%\begin{demo}[n]{}
+%\gl{dol\=orem ipsum !{\\} 
+%     quia dolor sit amet}
+%   {pain.acc itself.acc because 
+%     pain be.sbj.3sg love.sbj.3sg}
+%\end{demo}
+%A single forward slash can be used as a shortcut to produce a line break:
+%the example above could also have been written.
+%\begin{verbatim}
+%\gl{dol\=orem ipsum / quia dolor sit amet}
+%   {pain.acc itself.acc because pain be.sbj.3sg love.sbj.3sg}
+%\end{verbatim}
+
 %What glossing macros do is take horizontally organized input --- like this
 %\begin{verbatim}
 %\gl{lorem ipsum dolor sit amet}
@@ -197,8 +230,8 @@
 \newdimen\withinglspace\withinglspace=0pt
 \newdimen\aboveglspace\aboveglspace=0pt
 \def\glspace{\penalty0\hspace{0pt}}
-\def\everygla{\sl}
-\def\everyglb{\sf}
+\def\everygla{\slshape}
+\def\everyglb{\sffamily}
 \def\glescape{!}
 %\end{macrocode}
 %\end{macro}
